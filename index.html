@@ -1,0 +1,94 @@
+<html>
+  
+  
+  <body>
+    
+ <div class="container">
+  <header class="header">   
+<h1 id="title"> Healthcare Worker Survey</h1>
+<p id="description"> Rosalind Franklin Laboratory </p>
+<form id="survey-form">
+  <div class="form-group">
+  <label for="name" id="name-label"> Name </label>
+  <input id="name" type="text" name="name" placeholder="Enter your name" class="form-control" required> </input>
+   </div>
+    <div class="form-group">
+<label for="email" id="email-label"> Email </label>
+<input id="email" type="email" name="email" placeholder="Enter your email" class="form-control" required> </input>
+    </div>
+   <div class="form-group">
+<label for="number" id="number-label">Age (optional) </label>
+<input id="number" type="number" name="number" placeholder="Age" min="18" max="100" class="form-control" required> </input>
+    </div>
+<div class="form-group">
+<label for="dropdown" id="model"> What best describes your current role </label>
+<select id="dropdown" class="form-control"> 
+  <option value="Laboratory Support Associate"> Laboratory Support Associate </option>
+  <option value="Scientist"> Scientist </option>
+  <option value="Senior Scientist"> Senior Scientist </option>
+  <option value="Shift Manager"> Shift Manager </option>
+  <option value="Associate Principal Scientist"> Associate Principal Scientist </option>
+  <option value="Principal Scientist"> Principal Scientist </option>
+  <option value="Data Scientist"> Data Scientist </option>
+</select>
+    </div>
+<div class="form-group">
+<label for="feel" id="feel"> How do you feel about the workplace? </label>
+  <br>
+<input id="feel" type="radio" id="Happy" name="feel" value="happy" class="input-radio">
+<label for="feel"> Very Satisfied </label>
+<input id="feel" type="radio" id="satisfied" name="feel" value="satisfied" class="input-radio">
+<label for="feel"> Satisfied </label>
+<input id="feel" type="radio" id="Content" name="feel" value="content" class="input-radio">
+<label for="feel"> Content </label>
+<input id="feel" type="radio" id="Dissatified" name="feel" value="Dissatified" class="input-radio">
+<label for="feel"> Dissatisfied </label>
+<input id="feel" type="radio" id="very dissatified" name="feel" value="very dissatified" class="input-radio">
+<label for="feel"> Very Dissatisfied </label>
+    </div>
+    <div class="form-group">
+<label for="dropdown" id="model"> What is your favourite thing about the workplace </label>
+<select id="dropdown" class="form-control"> 
+  <option value="Location"> Location </option>
+  <option value="Colleagues"> Colleagues </option>
+  <option value="Technology"> Technology </option>
+  <option value="Accessibility"> Accessibility </option>
+  <option value="Entertainment"> Entertainment </option>
+  <option value="Environment"> Environment </option>
+  <option value="Workload"> Workload </option>
+</select>
+       </div>
+    <div class="form-group">
+<label for="Improvements"> What improvements would you like to see at the Laboratory?</label>
+<input id="checkbox" type="checkbox" name="improvements" value="communication">
+<label for="checkbox"> Communication </label>
+
+<input id="checkbox" type="checkbox" name="improvements" value="workload">
+<label for="checkbox"> Workload </label>
+<input id="checkbox" type="checkbox" name="improvements" value="Environment">
+<label for="checkbox"> Environment </label>
+<input id="checkbox" type="checkbox" name="improvements" value="welfare">
+<label for="checkbox"> Staff Welfare </label>
+<input id="checkbox" type="checkbox" name="improvements" value="area">
+<label for="checkbox"> Welfare Area </label>
+<input id="checkbox" type="checkbox" name="improvements" value="health">
+<label for="checkbox"> Health and Wellbeing Service </label>
+<input id="checkbox" type="checkbox" name="improvements" value="other">
+<label for="checkbox"> Other </label>
+       </div>
+    <div class="form-group">
+<label for="other" id="other"> If you have chose Other, please give a brief explanation</label>
+<br>
+      <input id="reason" type="reason" name="reason" placeholder="Reason"> </input>
+<label="textarea"> Any additional comments or suggestions?</label>
+<textarea id="textarea" name="instructions" rows="5" cols="40"> </textarea>
+
+<input id="submit" type="submit" value="Submit">
+  
+  
+  
+</form>
+
+</body>
+
+</html>
